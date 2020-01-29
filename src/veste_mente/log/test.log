@@ -1,0 +1,505 @@
+  [1m[35m (558.0ms)[0m  [1m[35mDROP DATABASE IF EXISTS "ja_lancei_test"[0m
+  [1m[35m (952.2ms)[0m  [1m[35mCREATE DATABASE "ja_lancei_test" ENCODING = 'unicode'[0m
+  [1m[35m (616.4ms)[0m  [1m[35mDROP DATABASE IF EXISTS "ja_lancei_test"[0m
+  [1m[35m (829.4ms)[0m  [1m[35mCREATE DATABASE "ja_lancei_test" ENCODING = 'unicode'[0m
+  [1m[35m (322.2ms)[0m  [1m[35mDROP DATABASE IF EXISTS "ja_lancei_test"[0m
+  [1m[35m (1493.8ms)[0m  [1m[35mCREATE DATABASE "ja_lancei_test" ENCODING = 'unicode'[0m
+  [1m[35m (318.2ms)[0m  [1m[35mDROP DATABASE IF EXISTS "ja_lancei_test"[0m
+  [1m[35m (586.7ms)[0m  [1m[35mCREATE DATABASE "ja_lancei_test" ENCODING = 'unicode'[0m
+  [1m[35m (326.9ms)[0m  [1m[35mDROP DATABASE IF EXISTS "ja_lancei_test"[0m
+  [1m[35m (741.8ms)[0m  [1m[35mCREATE DATABASE "ja_lancei_test" ENCODING = 'unicode'[0m
+  [1m[35m (324.5ms)[0m  [1m[35mDROP DATABASE IF EXISTS "ja_lancei_test"[0m
+  [1m[35m (852.8ms)[0m  [1m[35mCREATE DATABASE "ja_lancei_test" ENCODING = 'unicode'[0m
+  [1m[35m (230.8ms)[0m  [1m[35mDROP DATABASE IF EXISTS "ja_lancei_test"[0m
+  [1m[35m (730.0ms)[0m  [1m[35mCREATE DATABASE "ja_lancei_test" ENCODING = 'unicode'[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/root" for 127.0.0.1 at 2020-01-16 23:01:19 -0300
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (1.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/welcome" for 127.0.0.1 at 2020-01-16 23:01:43 -0300
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Started GET "/welcome" for 127.0.0.1 at 2020-01-16 23:02:29 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 1659ms (Views: 1654.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Started GET "/welcome" for 127.0.0.1 at 2020-01-16 23:04:53 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 266ms (Views: 262.4ms | ActiveRecord: 0.0ms)
+Started GET "/welcome_po" for 127.0.0.1 at 2020-01-16 23:04:54 -0300
+Processing by WelcomePoController#index as HTML
+  Rendering welcome_po/index.html.erb within layouts/application
+  Rendered welcome_po/index.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/welcome" for 127.0.0.1 at 2020-01-16 23:08:35 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 263ms (Views: 259.2ms | ActiveRecord: 0.0ms)
+Started GET "/welcome_po" for 127.0.0.1 at 2020-01-16 23:08:35 -0300
+Processing by WelcomePoController#index as HTML
+  Rendering welcome_po/index.html.erb within layouts/application
+  Rendered welcome_po/index.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/welcome" for 127.0.0.1 at 2020-01-16 23:09:39 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 284ms (Views: 279.4ms | ActiveRecord: 0.0ms)
+Started GET "/welcome_po" for 127.0.0.1 at 2020-01-16 23:09:40 -0300
+Processing by WelcomePoController#index as HTML
+  Rendering welcome_po/index.html.erb within layouts/application
+  Rendered welcome_po/index.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/welcome" for 127.0.0.1 at 2020-01-16 23:11:04 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 262ms (Views: 258.2ms | ActiveRecord: 0.0ms)
+Started GET "/welcome_po" for 127.0.0.1 at 2020-01-16 23:11:04 -0300
+Processing by WelcomePoController#index as HTML
+  Rendering welcome_po/index.html.erb within layouts/application
+  Rendered welcome_po/index.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (1.6ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (1.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+Started GET "/welcome" for 127.0.0.1 at 2020-01-16 23:11:04 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+Started POST "/" for 127.0.0.1 at 2020-01-16 23:11:04 -0300
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/welcome" for 127.0.0.1 at 2020-01-16 23:12:35 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 307ms (Views: 302.5ms | ActiveRecord: 0.0ms)
+Started GET "/welcome_po" for 127.0.0.1 at 2020-01-16 23:12:35 -0300
+Processing by WelcomePoController#index as HTML
+  Rendering welcome_po/index.html.erb within layouts/application
+  Rendered welcome_po/index.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (1.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (1.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/welcome" for 127.0.0.1 at 2020-01-16 23:12:35 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_header.html.erb (2.3ms)
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+Started POST "/" for 127.0.0.1 at 2020-01-16 23:12:36 -0300
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/welcome" for 127.0.0.1 at 2020-01-16 23:15:05 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (3.7ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 431ms (Views: 426.6ms | ActiveRecord: 0.0ms)
+Started GET "/welcome_po" for 127.0.0.1 at 2020-01-16 23:15:05 -0300
+Processing by WelcomePoController#index as HTML
+  Rendering welcome_po/index.html.erb within layouts/application
+  Rendered welcome_po/index.html.erb within layouts/application (3.4ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 16ms (Views: 14.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/welcome" for 127.0.0.1 at 2020-01-16 23:15:05 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.0ms)
+Started POST "/" for 127.0.0.1 at 2020-01-16 23:15:05 -0300
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/welcome" for 127.0.0.1 at 2020-01-16 23:16:28 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 272ms (Views: 267.5ms | ActiveRecord: 0.0ms)
+Started GET "/welcome_po" for 127.0.0.1 at 2020-01-16 23:16:28 -0300
+Processing by WelcomePoController#index as HTML
+  Rendering welcome_po/index.html.erb within layouts/application
+  Rendered welcome_po/index.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/welcome" for 127.0.0.1 at 2020-01-16 23:16:28 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+Started POST "/welcome_collaborator" for 127.0.0.1 at 2020-01-16 23:16:28 -0300
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/welcome" for 127.0.0.1 at 2020-01-16 23:16:54 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 290ms (Views: 285.4ms | ActiveRecord: 0.0ms)
+Started GET "/welcome_po" for 127.0.0.1 at 2020-01-16 23:16:54 -0300
+Processing by WelcomePoController#index as HTML
+  Rendering welcome_po/index.html.erb within layouts/application
+  Rendered welcome_po/index.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/welcome" for 127.0.0.1 at 2020-01-16 23:16:54 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+Started GET "/welcome_collaborator" for 127.0.0.1 at 2020-01-16 23:16:54 -0300
+Processing by WelcomeCollaboratorController#index as HTML
+  Rendering welcome_collaborator/index.html.erb within layouts/application
+  Rendered welcome_collaborator/index.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/welcome" for 127.0.0.1 at 2020-01-16 23:17:15 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 263ms (Views: 258.5ms | ActiveRecord: 0.0ms)
+Started GET "/welcome_po" for 127.0.0.1 at 2020-01-16 23:17:15 -0300
+Processing by WelcomePoController#index as HTML
+  Rendering welcome_po/index.html.erb within layouts/application
+  Rendered welcome_po/index.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/welcome" for 127.0.0.1 at 2020-01-16 23:17:16 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+Started GET "/welcome_collaborator" for 127.0.0.1 at 2020-01-16 23:17:16 -0300
+Processing by WelcomeCollaboratorController#index as HTML
+  Rendering welcome_collaborator/index.html.erb within layouts/application
+  Rendered welcome_collaborator/index.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/welcome" for 127.0.0.1 at 2020-01-16 23:33:27 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 297ms (Views: 292.8ms | ActiveRecord: 0.0ms)
+Started GET "/welcome_po" for 127.0.0.1 at 2020-01-16 23:33:27 -0300
+Processing by WelcomePoController#index as HTML
+  Rendering welcome_po/index.html.erb within layouts/application
+  Rendered welcome_po/index.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/welcome" for 127.0.0.1 at 2020-01-16 23:33:27 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+Started GET "/welcome_collaborator" for 127.0.0.1 at 2020-01-16 23:33:27 -0300
+Processing by WelcomeCollaboratorController#index as HTML
+  Rendering welcome_collaborator/index.html.erb within layouts/application
+  Rendered welcome_collaborator/index.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Started GET "/welcome" for 127.0.0.1 at 2020-01-16 23:45:04 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 295ms (Views: 290.7ms | ActiveRecord: 0.0ms)
+Started GET "/welcome_po" for 127.0.0.1 at 2020-01-16 23:45:05 -0300
+Processing by WelcomePoController#index as HTML
+  Rendering welcome_po/index.html.erb within layouts/application
+  Rendered welcome_po/index.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/welcome" for 127.0.0.1 at 2020-01-16 23:45:05 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 11ms (Views: 10.7ms | ActiveRecord: 0.0ms)
+Started GET "/welcome_collaborator" for 127.0.0.1 at 2020-01-16 23:45:05 -0300
+Processing by WelcomeCollaboratorController#index as HTML
+  Rendering welcome_collaborator/index.html.erb within layouts/application
+  Rendered welcome_collaborator/index.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (28.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/welcome" for 127.0.0.1 at 2020-01-17 10:32:15 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 439ms (Views: 429.0ms | ActiveRecord: 0.0ms)
+Started GET "/welcome_po" for 127.0.0.1 at 2020-01-17 10:32:15 -0300
+Processing by WelcomePoController#index as HTML
+  Rendering welcome_po/index.html.erb within layouts/application
+  Rendered welcome_po/index.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/welcome" for 127.0.0.1 at 2020-01-17 10:32:15 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.0ms)
+Started GET "/welcome_collaborator" for 127.0.0.1 at 2020-01-17 10:32:15 -0300
+Processing by WelcomeCollaboratorController#index as HTML
+  Rendering welcome_collaborator/index.html.erb within layouts/application
+  Rendered welcome_collaborator/index.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 9ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/welcome" for 127.0.0.1 at 2020-01-17 10:40:14 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 317ms (Views: 312.8ms | ActiveRecord: 0.0ms)
+Started GET "/welcome_po" for 127.0.0.1 at 2020-01-17 10:40:14 -0300
+Processing by WelcomePoController#index as HTML
+  Rendering welcome_po/index.html.erb within layouts/application
+  Rendered welcome_po/index.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/welcome" for 127.0.0.1 at 2020-01-17 10:40:14 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 15ms (Views: 11.2ms | ActiveRecord: 0.0ms)
+Started GET "/welcome_collaborator" for 127.0.0.1 at 2020-01-17 10:40:14 -0300
+Processing by WelcomeCollaboratorController#index as HTML
+  Rendering welcome_collaborator/index.html.erb within layouts/application
+  Rendered welcome_collaborator/index.html.erb within layouts/application (2.4ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/managers/new" for 127.0.0.1 at 2020-01-17 10:40:14 -0300
+Processing by ManagersController#new as HTML
+  Rendering managers/new.html.erb within layouts/application
+  Rendered layouts/_error_messages.html.erb (1.9ms)
+  Rendered managers/new.html.erb within layouts/application (38.5ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 126ms (Views: 40.5ms | ActiveRecord: 61.6ms)
+Started POST "/managers" for 127.0.0.1 at 2020-01-17 10:40:14 -0300
+Processing by ManagersController#create as HTML
+  Parameters: {"utf8"=>"✓", "manager"=>{"email"=>"teste.001@teste.com.br", "first_name"=>"Teste", "last_name"=>"001", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Cadastrar-se"}
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mManager Exists (10.9ms)[0m  [1m[34mSELECT  1 AS one FROM "managers" WHERE "managers"."email" = $1 LIMIT $2[0m  [["email", "teste.001@teste.com.br"], ["LIMIT", 1]]
+  [1m[36mManager Create (26.8ms)[0m  [1m[32mINSERT INTO "managers" ("email", "first_name", "last_name", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["email", "teste.001@teste.com.br"], ["first_name", "Teste"], ["last_name", "001"], ["password_digest", "$2a$04$6QGVo0/.LFRlMqcGQsS/iuz8HT9UunC2o6K6rpSl2lDXzwRgary2q"], ["created_at", "2020-01-17 13:40:14.961163"], ["updated_at", "2020-01-17 13:40:14.961163"]]
+  [1m[35m (0.3ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/welcome_po
+Completed 302 Found in 54ms (ActiveRecord: 38.3ms)
+Started GET "/welcome_po" for 127.0.0.1 at 2020-01-17 10:40:14 -0300
+Processing by WelcomePoController#index as HTML
+  Rendering welcome_po/index.html.erb within layouts/application
+  Rendered welcome_po/index.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (107.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/welcome" for 127.0.0.1 at 2020-01-27 23:11:41 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (40.4ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+Completed 200 OK in 1177ms (Views: 1159.9ms | ActiveRecord: 0.0ms)
+Started GET "/welcome_po" for 127.0.0.1 at 2020-01-27 23:11:42 -0300
+Processing by WelcomePoController#index as HTML
+  Rendering welcome_po/index.html.erb within layouts/application
+  Rendered welcome_po/index.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 6ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+Started GET "/welcome" for 127.0.0.1 at 2020-01-27 23:11:43 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+Started GET "/welcome_collaborator" for 127.0.0.1 at 2020-01-27 23:11:43 -0300
+Processing by WelcomeCollaboratorController#index as HTML
+  Rendering welcome_collaborator/index.html.erb within layouts/application
+  Rendered welcome_collaborator/index.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 7ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/managers/new" for 127.0.0.1 at 2020-01-27 23:11:43 -0300
+Processing by ManagersController#new as HTML
+  Rendering managers/new.html.erb within layouts/application
+  Rendered layouts/_error_messages.html.erb (1.3ms)
+  Rendered managers/new.html.erb within layouts/application (58.5ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 214ms (Views: 60.7ms | ActiveRecord: 74.6ms)
+Started POST "/managers" for 127.0.0.1 at 2020-01-27 23:11:43 -0300
+Processing by ManagersController#create as HTML
+  Parameters: {"utf8"=>"✓", "manager"=>{"email"=>"teste.001@teste.com.br", "first_name"=>"Teste", "last_name"=>"001", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Cadastrar-se"}
+  [1m[35m (0.2ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[36mManager Exists (20.4ms)[0m  [1m[34mSELECT  1 AS one FROM "managers" WHERE "managers"."email" = $1 LIMIT $2[0m  [["email", "teste.001@teste.com.br"], ["LIMIT", 1]]
+  [1m[36mManager Create (63.5ms)[0m  [1m[32mINSERT INTO "managers" ("email", "first_name", "last_name", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["email", "teste.001@teste.com.br"], ["first_name", "Teste"], ["last_name", "001"], ["password_digest", "$2a$04$9KmTM7EDxD9s8dKbYxxpCONUfu943C4SdidoXPAQsYpzU9UkiWWF."], ["created_at", "2020-01-28 02:11:43.397640"], ["updated_at", "2020-01-28 02:11:43.397640"]]
+  [1m[35m (0.7ms)[0m  [1m[35mRELEASE SAVEPOINT active_record_1[0m
+Redirected to http://www.example.com/welcome_po
+Completed 302 Found in 98ms (ActiveRecord: 84.8ms)
+Started GET "/welcome_po" for 127.0.0.1 at 2020-01-27 23:11:43 -0300
+Processing by WelcomePoController#index as HTML
+  Rendering welcome_po/index.html.erb within layouts/application
+  Rendered welcome_po/index.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+Completed 200 OK in 8ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (1.1ms)[0m  [1m[31mROLLBACK[0m

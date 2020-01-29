@@ -1,0 +1,114 @@
+{
+  "Cucumber Features": {
+    "coverage": {
+      "/home/leonardo/Documentos/Projetos/JaLancei/src/ja_lancei/app/controllers/welcome_controller.rb": [
+        1,
+        null
+      ],
+      "/home/leonardo/Documentos/Projetos/JaLancei/src/ja_lancei/app/controllers/application_controller.rb": [
+        1,
+        null
+      ],
+      "/home/leonardo/Documentos/Projetos/JaLancei/src/ja_lancei/app/helpers/application_helper.rb": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null
+      ],
+      "/home/leonardo/Documentos/Projetos/JaLancei/src/ja_lancei/app/helpers/managers_helper.rb": [
+        1,
+        null
+      ],
+      "/home/leonardo/Documentos/Projetos/JaLancei/src/ja_lancei/app/helpers/welcome_helper.rb": [
+        1,
+        null
+      ],
+      "/home/leonardo/Documentos/Projetos/JaLancei/src/ja_lancei/app/helpers/welcome_collaborator_helper.rb": [
+        1,
+        null
+      ],
+      "/home/leonardo/Documentos/Projetos/JaLancei/src/ja_lancei/app/helpers/welcome_po_helper.rb": [
+        1,
+        null
+      ],
+      "/home/leonardo/Documentos/Projetos/JaLancei/src/ja_lancei/app/controllers/welcome_po_controller.rb": [
+        1,
+        null
+      ],
+      "/home/leonardo/Documentos/Projetos/JaLancei/src/ja_lancei/app/controllers/welcome_collaborator_controller.rb": [
+        1,
+        null
+      ],
+      "/home/leonardo/Documentos/Projetos/JaLancei/src/ja_lancei/app/controllers/managers_controller.rb": [
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        0,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/home/leonardo/Documentos/Projetos/JaLancei/src/ja_lancei/app/models/manager.rb": [
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "/home/leonardo/Documentos/Projetos/JaLancei/src/ja_lancei/app/models/application_record.rb": [
+        1,
+        1,
+        null
+      ],
+      "/home/leonardo/Documentos/Projetos/JaLancei/src/ja_lancei/app/channels/application_cable/connection.rb": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "/home/leonardo/Documentos/Projetos/JaLancei/src/ja_lancei/app/channels/application_cable/channel.rb": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "/home/leonardo/Documentos/Projetos/JaLancei/src/ja_lancei/app/jobs/application_job.rb": [
+        0,
+        0
+      ],
+      "/home/leonardo/Documentos/Projetos/JaLancei/src/ja_lancei/app/mailers/application_mailer.rb": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "timestamp": 1580177503
+  }
+}
