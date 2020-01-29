@@ -1,13 +1,10 @@
 # Vestemente
 
-[![Build Status](https://travis-ci.com/leogiraldimg/ja_lancei.svg?branch=master)](https://travis-ci.com/leogiraldimg/ja_lancei)
-[![Maintainability](https://api.codeclimate.com/v1/badges/ad934b91c3c08f355691/maintainability)](https://codeclimate.com/github/leogiraldimg/ja_lancei/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/ad934b91c3c08f355691/test_coverage)](https://codeclimate.com/github/leogiraldimg/ja_lancei/test_coverage)
+[![Build Status](https://travis-ci.com/leogiraldimg/vestemente.svg?token=Z7o7XFhJjahuczL3YxqA&branch=master)](https://travis-ci.com/leogiraldimg/vestemente)
 
 ## Plataformas
 
-* [CodeClimate - Vestemente](https://codeclimate.com/github/leogiraldimg/ja_lancei)
-* [Travis CI - Vestemente](https://travis-ci.com/leogiraldimg/ja_lancei)
+* [Travis CI - Vestemente](https://travis-ci.com/leogiraldimg/vestemente)
 * [Heroku - Vestemente]()
 
 ## Autores do projeto
