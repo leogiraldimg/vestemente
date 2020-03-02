@@ -2,14 +2,13 @@ language: ruby
 rvm:
   - 2.6.1
 gemfile:
-  - src/veste_mente/Gemfile
+  - Gemfile
 
 # env:
 #   global:
 #     CC_TEST_REPORTER_ID=4a235ce1768d1b456f5cb90fcf4f953eba7659f0478026831574e5692c2f0baa
 
 before_install:
-  - cd ./src/veste_mente
   - gem install rails
   - gem update --system
   - gem install bundler
