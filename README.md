@@ -5,7 +5,7 @@
 ## Plataformas
 
 * [Travis CI - Vestemente](https://travis-ci.com/leogiraldimg/vestemente)
-* [Heroku - Vestemente]()
+* [Heroku - Vestemente](http://vestemente.herokuapp.com/)
 
 ## Autores do projeto
 
