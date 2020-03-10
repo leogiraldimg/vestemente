@@ -1,0 +1,45 @@
+@import "colors";
+
+#header-navbar {
+    background-color: $white;
+
+    .navbar-content {
+        display: flex;
+    }
+
+    .nav-link-font {
+        font-size: 14px;
+        color: $black;
+    }
+
+    #navbar-brand-font {
+        font-size: 26px;
+        font-weight: bold;
+        margin-right: 30px;
+        color: $black;
+    }
+
+    #navbar-brand-font :hover {
+        font-weight: bold;
+    }
+
+    .nav-link-font:hover {
+        font-weight: bold;
+    }
+
+    .dropdown-item.active, .dropdown-item:active {
+        color: #fff;
+        text-decoration: none;
+        background-color: $mahogany;
+    }
+}
+
+@media (max-width: 740px) {
+    .navbar-content {
+        display: inline !important;
+    }
+    #header-navbar {
+        position: relative;
+        display: -webkit-box;
+    }
+}
