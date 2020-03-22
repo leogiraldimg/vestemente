@@ -13,10 +13,11 @@
     }
 
     #navbar-brand-font {
-        font-size: 26px;
-        font-weight: bold;
-        margin-right: 30px;
-        color: $black;
+        margin-right: 0;
+
+        img {
+            width: 80%;
+        }
     }
 
     #navbar-brand-font :hover {
