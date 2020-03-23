@@ -39,8 +39,13 @@
     .navbar-content {
         display: inline !important;
     }
+
     #header-navbar {
         position: relative;
         display: -webkit-box;
+
+        #navbar-brand-font {
+            width: 80%;
+        }
     }
 }
